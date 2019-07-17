@@ -4,7 +4,7 @@ A Material Design slider on circular mode
 
 ## Installation
 
-npm i circular-slider
+npm i circular-slider-component
 
 ## How to instantiate the element
 

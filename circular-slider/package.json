@@ -1,6 +1,6 @@
 {
-  "name": "circular-slider",
-  "version": "0.0.1",
+  "name": "circular-slider-component",
+  "version": "0.0.2",
   "description": "A Material Design slider on circular mode",
   "main": "circular-slider.js",
   "dependencies": {
