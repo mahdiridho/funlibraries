@@ -1,6 +1,6 @@
 {
-  "name": "@mahdiridho/v-paper-slider",
-  "version": "0.0.1",
+  "name": "v-paper-slider",
+  "version": "0.0.4",
   "description": "A Material Design slider on vertical mode",
   "main": "v-paper-slider.js",
   "dependencies": {
@@ -14,5 +14,15 @@
     "mocha": "^5.2.0",
     "wct-mocha": "^1.0.0"
   },
-  "author": "Mahdi Ridho"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdiridho/funlibraries"
+  },
+  "author": "Mahdi Ridho",
+  "keywords": [
+    "slider",
+    "vertical slider",
+    "paper-slider",
+    "vertical paper-slider"
+  ]
 }

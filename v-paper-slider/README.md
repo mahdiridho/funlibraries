@@ -4,10 +4,11 @@ A Material Design slider on vertical mode
 
 ## Installation
 
-npm i @mahdiridho/v-paper-slider
+npm i v-paper-slider
 
-## How to use it
+## How to instantiate the element
 
+```
 <v-paper-slider 
 	s-width="SLIDER_SIZE" 
 	s-right="SLIDER_RIGHT_MARGIN" 
@@ -18,9 +19,11 @@ npm i @mahdiridho/v-paper-slider
 	slider-max="SLIDER_MAXIMUM_VALUE" 
 	slider-step="SLIDER_STEP_VALUE">
 </v-paper-slider>
+```
 
 ## Properties
 
+```
 s-width : Slider size in pixel
 s-right : Slider right margin in pixel
 s-left : Slider left margin in pixel
@@ -29,3 +32,4 @@ slider-value : Default value of the slider can be integer or float (i.e 25 || 63
 slider-min : Minimal value of the Slider can be integer or float (i.e 25 || 10.5)
 slider-max : Maximal value of the Slider can be integer or float (i.e 80 || 70.5)
 slider-step : Step value of the Slider can be integer or float (i.e 1 || 1.2)
+```
