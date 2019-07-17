@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>v-paper-slider demo</title>
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <script type="module">
+      import '@polymer/iron-demo-helpers/demo-pages-shared-styles';
+      import '@polymer/iron-demo-helpers/demo-snippet';
+    </script>
+
+    <script type="module" src="../v-paper-slider.js"></script>
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic v-paper-slider demo</h3>
+      <demo-snippet>
+        <template>
+          <style>
+            .mixer {
+              margin: auto;
+            }
+          </style>
+          <div class="mixer">
+            <v-paper-slider s-width="200" s-left="10" s-right="5" s-background-color="#ccffdd" slider-value="44.3"></v-paper-slider>
+            <v-paper-slider s-width="200" s-left="30" s-right="20" s-background-color="#ffddcc" slider-value="-26" slider-min="-100" slider-max="0"></v-paper-slider>
+            <v-paper-slider s-width="200" s-left="10" s-right="10" s-background-color="#3071a9" slider-max="45" slider-step="3"></v-paper-slider>
+          </div>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
