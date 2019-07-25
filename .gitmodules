@@ -1,0 +1,15 @@
+[submodule "auth-client"]
+	path = auth-client
+	url = https://github.com/CT0ps/library-auth-client
+[submodule "nfc-client"]
+	path = nfc-client
+	url = https://github.com/CT0ps/library-nfc-client
+[submodule "photo-text-recognition"]
+	path = photo-text-recognition
+	url = https://github.com/CT0ps/library-photo-text-recognition
+[submodule "file-upload-download"]
+	path = file-upload-download
+	url = https://github.com/CT0ps/library-file-upload-download
+[submodule "cognito-auth"]
+	path = cognito-auth
+	url = https://github.com/CT0ps/library-cognito-auth
