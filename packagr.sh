@@ -29,6 +29,9 @@ function build_package {
     # Pack the package
     cp -rf src/assets dist/
     cd dist
+    cp ../../jsonSanitize.js ./
+    ./jsonSanitize.js
+    rm ./jsonSanitize.js
     npm pack
     # set back to the original dependencies
     cd ..
