@@ -1,0 +1,23 @@
+{
+  "name": "funlibraries",
+  "version": "1.0.0",
+  "description": "All reusable components will be packaged to npm library. We can reuse each libraries to every projects needed them. We can publish them to npm as public library too.",
+  "main": "jsonSanitize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdiridho/funlibraries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdiridho/funlibraries/issues"
+  },
+  "homepage": "https://github.com/mahdiridho/funlibraries#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

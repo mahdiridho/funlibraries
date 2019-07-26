@@ -10,5 +10,5 @@ let fs = require('fs');
 let packageJson = require("./package.json");
 delete packageJson.dependencies;
 let newJson = JSON.stringify(packageJson);
-newJson = newJson.replace(/\[/g,"\[\n").replace(/\]/g,"\n\]").replace(/{/g,"{\n").replace(/}/g,"\n}").replace(/,/g,",\n");
+newJson = newJson.replace(/\[/g,"\[\n").replace(/\]/g,"\n\]").replace(/{/g,"{\n").replace(/}/g,"\n}").replace(/,"/g,',\n"');
 fs.writeFileSync("./package.json", newJson);
