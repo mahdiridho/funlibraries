@@ -16,7 +16,7 @@ export class AppComponent {
   }
 
   signin() {
-    this.api.service.call("post", "/api/auth/login/", 
+    this.api.service.call("post", "/api/accounts/token/", 
       {
         username: "mahdi", 
         password: "Trial@1234"
