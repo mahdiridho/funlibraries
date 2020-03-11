@@ -13,3 +13,9 @@
 [submodule "cognito-auth"]
 	path = cognito-auth
 	url = https://github.com/CT0ps/library-cognito-auth
+[submodule "setting-client"]
+	path = setting-client
+	url = https://github.com/CT0ps/library-setting-client
+[submodule "mapbox-client"]
+	path = mapbox-client
+	url = https://github.com/CT0ps/library-mapbox-client
