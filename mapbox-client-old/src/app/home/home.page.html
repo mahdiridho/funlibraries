@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Mapbox Dummy
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content scroll="false">
+    <div>
+      <ion-item>
+        <ion-input placeholder="Destination coordinates (long, lat)" #destination></ion-input>
+        <ion-row>
+          <ion-col>
+            <ion-button (click)="mb.travelPath(destination.value, null, null)">
+              <ion-icon slot="icon-only" name="arrow-round-forward"></ion-icon>
+            </ion-button>
+            <ion-button (click)="mb.startTravel(null)">
+              <ion-icon slot="icon-only" name="car"></ion-icon>
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+    </div>
+    <mapbox-client #mb [mapboxProfile]="mapboxProfile"></mapbox-client>
+  </ion-content>
+  

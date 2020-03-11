@@ -1,0 +1,7 @@
+{
+  "name": "mapbox-client",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
